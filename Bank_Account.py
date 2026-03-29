@@ -1,5 +1,5 @@
 import psycopg2
-
+# this is bankaccount project
 class BankAccount:
     def __init__(self, account_number, account_holder=None, balance=0):
         self.account_number = account_number
